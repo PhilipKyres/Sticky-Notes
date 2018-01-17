@@ -1,0 +1,132 @@
+body {
+  background: #c1bdba;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 10px;
+  height: 55px;
+  width: 97%;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  color: #c1bdba;
+  clear: both;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#plus {
+  float: left;
+  display: inline;
+  padding-left: 10px;
+  font-family: Arial;
+  font-size: 3rem;
+  height: 30px;
+  cursor: pointer;
+}
+
+#textarea {
+  position: absolute;
+  left: 75px;
+  float: left;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.center {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+.center span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logout {
+  display: inline;
+  float:right;
+}
+
+#logoutButton {
+  position: relative;
+  top: 5px;
+  border-style: none;
+  display: block;
+  text-decoration: none;
+  right: 15px;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #1ab188;
+  color: #ffffff;
+  font-size: 20px;
+  float: right;
+  border-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+          transition: .5s ease;
+}
+
+#logoutButton:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+
+#logoutButton .active {
+  background: #1ab188;
+  color: #ffffff;
+}
+
+#main {
+  border: 4px solid black;
+  border-radius: 1em;
+  position: absolute;
+  top: 100px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.note {
+  color: #c1bdba;
+  left: 100px;
+  top: 100px;
+  width: 289px;
+  height: 370px;
+  background: rgba(19, 35, 47, 0.9);
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  border-radius: .5em;
+  position: absolute;
+  -webkit-user-select: none;     
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: all-scroll;
+  padding-top: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  word-wrap: break-word;
+}
+
+.d {
+  position: absolute;
+  font-size: 2.8rem;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  float: right; 
+  clear: right;
+  top: -15px;
+  right: 5px;
+}
