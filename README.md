@@ -13,4 +13,4 @@ The login page was not made by me. See license.txt
 ## Sticky Notes Dashboard ##
 ![Dashboard](https://i.imgur.com/OtqJR2o.png)
 
-The sticky.sql script must be executed on the MySQL database.
+The sticky.sql script must be executed on the MySQL database for the website to run properly.
